@@ -13,6 +13,9 @@ namespace ConsoleApplication1
     {
         public int MyProperty { get; set; }
         public int Branch1Property { get; set; }
+
+        //branch 1 prop 2 
         public int Branch1Prop2 { get; set; }
+
     }
 }
