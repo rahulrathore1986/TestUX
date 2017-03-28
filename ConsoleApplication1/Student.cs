@@ -12,5 +12,6 @@ namespace ConsoleApplication1
     public class Student
     {
         public int MyProperty { get; set; }
+        public int Branch1Property { get; set; }
     }
 }
