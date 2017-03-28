@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <style>
+        .grid-format{
+                border: solid 2px;
+    height: 30px;
+    border-color: #55b446;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            /*height: 100%;*/
+            /*overflow: hidden !important;*/
+            font-family: AdobeClean !important;
+            word-break: break-all;
+            word-wrap: break-word;
+            color: gray;
+        }
+
+        .app-logo {
+            height: 30px;
+            float: left;
+        }
+        /*li {
+            float: left;
+            border-right: 1px solid #bbb;
+            padding:15px;
+        }*/
+        /*ul {
+            list-style-type: lower-latin;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #0026ff;
+        }
+
+
+            li:last-child {
+                border-right: none;
+            }
+            li a{
+                color:white;
+            }*/
+
+        .barnd-name1 {
+            color:black;
+            float:left;
+        }
+        .barnd-name {
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 5px;
+    width: 100%;
+    color: white;
+}
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid" style="background-color:steelblue">
+            <div class="navbar-header">
+
+                <a class="navbar-brand" href="#">
+                    <img class="app-logo" src="Content/Images/AppLogo.jpg" alt="DME Attrition Outlook" title="DME Attrition Outlook" />
+                    <div class="barnd-name">DME Attrition Outlook</div>
+
+                </a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" >
+                    <span class="glyphicon glyphicon-download-alt" style=""></span>
+                        <span style="margin-left:5px;color:white;">Download</span>
+                    <!--<div class="barnd-name"></div>-->
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-left" >
+        <ul class="nav nav-pills nav-stacked">
+            <li >
+                <div style="padding:10px;background-color:steelblue;color:white;text-align:center;">
+                    <div class="row" >
+                        <div class="col-lg-12 col-sm-12 col-md-12"><img style="padding-left:18px;height:110px;" title="User Profile" src="Content/Images/blank profile.png" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12 col-md-12">Welcome Guest</div>
+                    </div>
+                </div>
+            </li>
+            <li class="active"><a href="#">DashBoard</a></li>
+            <li ><a href="#">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 col-md-6" >QBR VIEW</div>
+                    <div class="col-lg-6 col-sm-6 col-md-6"><img src="Content/Images/Dashboard data.png" /></div>
+                </div>
+                </a>
+            </li>
+            <li ><a href="#">
+                     <div class="row">
+                         <div class="col-lg-6 col-sm-6 col-md-6">QBR VIEW</div>
+                         <div class="col-lg-6 col-sm-6 col-md-6"><img src="Content/Images/Dashboard data.png" /></div>
+                     </div>
+                </a>
+            </li>
+            <li ><a href="#">
+                     <div class="row">
+                         <div class="col-lg-6 col-sm-6 col-md-6">QBR VIEW</div>
+                         <div class="col-lg-6 col-sm-6 col-md-6"><img src="Content/Images/Dashboard data.png" /></div>
+                     </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <!--<div class="col-lg-4 col-sm-4 col-md-4">
+                <div>TEST USER</div>
+                <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation" class="active"><a href="#">Home</a></li>
+                    <li role="presentation"><a href="#">Profile</a></li>
+                    <li role="presentation"><a href="#">Messages</a></li>
+                </ul>
+            </div>-->
+            <div class="col-lg-12 col-sm-12 col-md-12">
+                <div style="padding:10px;color:cadetblue;font-size:18px;background-color:azure" >Summary Grid</div>
+                <div class="row grid-format">
+                    <div class="col-lg-3 col-sm-3 col-md-3">Heading1</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Heading2</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Heading3</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Heading4</div>
+                </div>
+                <div class="row grid-format">
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column1</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column2</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column3</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column4</div>
+                </div>
+                <div class="row grid-format">
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column1</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column2</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column3</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column4</div>
+                </div>
+                <div class="row grid-format">
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column1</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column2</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column3</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column4</div>
+                </div>
+                <div class="row grid-format">
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column1</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column2</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column3</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column4</div>
+                </div>
+                <div class="row grid-format">
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column1</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column2</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column3</div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">Column4</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <footer class="container-fluid" style="background-color:blue;text-align:center;border:solid 1px;color:white;font-size:28px;">Footer</footer>
+</body>
+</html>

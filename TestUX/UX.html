@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html  ng-app="app">
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    
+</head>
+<body>
+
+    <div class="container" ng-controller="customController">
+        <div class="page-header">
+           <div class="row">
+               <div class="col-md-3">
+                   <select id="statemultiselect"
+                           kendo-multi-select=""
+                           k-option-label="'Select States...'"
+                           k-data-text-field="'text'"
+                           k-data-value-field="'id'"
+                           k-data-source="allStates"
+                           k-ng-model="selectedStates"></select>
+
+                   <h4>Select product</h4>
+                   <select kendo-multi-select k-options="selectOptions" k-ng-model="selectedIds"></select>
+                   <p ng-show="selectedIds.length" style="padding-top: 1em;">Selected: {{ selectedIds }}</p>
+               </div>
+               <div class="col-md-9">
+                       <form id="signin" class="navbar-form navbar-right" role="form">
+                           <div class="input-group">
+                               <input id="email" type="email" class="form-control" name="email" value="" placeholder="Email Address">
+                           </div>
+                           <div class="input-group">
+                               <input id="password" type="password" class="form-control" name="password" value="" placeholder="Password">
+                           </div>
+                           <button type="submit" class="btn btn-primary">Login</button>
+                       </form>
+               </div>
+           </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6  col-xs-12">Columnt 1</div>
+                <div class="col-md-3 col-sm-6  col-xs-12">Columnt 2</div>
+                <div class="col-md-3 col-sm-6  col-xs-12">Columnt 3</div>
+                <div class="col-md-3 col-sm-6  col-xs-12">Columnt 4</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="Scripts/jquery-1.9.1.min.js"></script>
+<script type="text/javascript"  src="Scripts/angular.min.js"></script>
+<!--<script type="text/javascript"  src="Scripts/bootstrap.min.js"></script>-->
+<script type="text/javascript"  src="Scripts/KendoUI/kendo.all.min.js"></script>
+<!--<script type="text/javascript"  src="Scripts/KendoUI/kendo.autocomplete.min.js"></script>
+<script type="text/javascript"  src="Scripts/KendoUI/kendo.combobox.min.js"></script>-->
+<!--<script type="text/javascript"  src="Scripts/KendoUI/kendo.multiselect.min.js"></script>-->
+
+<script type="text/javascript" src="Scripts/CustomJs.js"></script>
+
+</html>
