@@ -11,5 +11,6 @@ namespace ConsoleApplication1
     /// </summary>
     public class Student
     {
+        public int MyProperty { get; set; }
     }
 }
