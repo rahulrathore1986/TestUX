@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ConsoleApplication1
 {
     /// <summary>
-    /// Test clas added for demo student
+    /// Test clas added for demo student yyuugfy
     /// </summary>
     public class Student
     {
